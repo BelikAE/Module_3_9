@@ -30,22 +30,22 @@ namespace Lab1
                 {
                     case 1:
                         {
-                            Console.WriteLine(x + y);
+                            Console.WriteLine($"Ваш выбор: {x + y}");
                             break;
                         }
                     case 2:
                         {
-                            Console.WriteLine(x - y);
+                            Console.WriteLine($"Ваш выбор: {x - y}");
                             break;
                         }
                     case 3:
                         {
-                            Console.WriteLine(x * y);
+                            Console.WriteLine($"Ваш выбор: {x * y}");
                             break;
                         }
                     case 4:
                         {
-                            Console.WriteLine(x / y);
+                            Console.WriteLine($"Ваш выбор: {x / y}");
                             break;
                         }
                     default: 
