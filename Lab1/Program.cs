@@ -48,10 +48,12 @@ namespace Lab1
                         }
                     case 4:
                         {
+                            double z = x / y;
                             Console.WriteLine($"Ваш выбор: {codOper}");
-                            Console.WriteLine($"Результат: {(double)x / y}");
+                            Console.WriteLine($"Результат: {z}");
                             break;
                         }
+
                     default: 
                         {
                             Console.WriteLine("Нет операции с указанным номером");
