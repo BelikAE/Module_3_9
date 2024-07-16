@@ -49,7 +49,7 @@ namespace Lab1
                     case 4:
                         {
                             Console.WriteLine($"Ваш выбор: {codOper}");
-                            Console.WriteLine($"Результат: {x / y}");
+                            Console.WriteLine($"Результат: {(double)x / y}");
                             break;
                         }
                     default: 
